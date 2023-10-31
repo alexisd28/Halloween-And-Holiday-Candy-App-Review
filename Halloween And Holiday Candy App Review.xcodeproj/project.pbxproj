@@ -16,6 +16,7 @@
 		2DA011D02AF1BE8700CD2283 /* Halloween_And_Holiday_Candy_App_ReviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA011CF2AF1BE8700CD2283 /* Halloween_And_Holiday_Candy_App_ReviewTests.swift */; };
 		2DA011DA2AF1BE8700CD2283 /* Halloween_And_Holiday_Candy_App_ReviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA011D92AF1BE8700CD2283 /* Halloween_And_Holiday_Candy_App_ReviewUITests.swift */; };
 		2DA011DC2AF1BE8700CD2283 /* Halloween_And_Holiday_Candy_App_ReviewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA011DB2AF1BE8700CD2283 /* Halloween_And_Holiday_Candy_App_ReviewUITestsLaunchTests.swift */; };
+		2DA011E92AF1C55C00CD2283 /* homeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA011E82AF1C55C00CD2283 /* homeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		2DA011D52AF1BE8700CD2283 /* Halloween And Holiday Candy App ReviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Halloween And Holiday Candy App ReviewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DA011D92AF1BE8700CD2283 /* Halloween_And_Holiday_Candy_App_ReviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Halloween_And_Holiday_Candy_App_ReviewUITests.swift; sourceTree = "<group>"; };
 		2DA011DB2AF1BE8700CD2283 /* Halloween_And_Holiday_Candy_App_ReviewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Halloween_And_Holiday_Candy_App_ReviewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2DA011E82AF1C55C00CD2283 /* homeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				2DA011BA2AF1BE8600CD2283 /* SceneDelegate.swift */,
 				2DA011BC2AF1BE8600CD2283 /* ViewController.swift */,
 				2DA011BE2AF1BE8600CD2283 /* Main.storyboard */,
+				2DA011E82AF1C55C00CD2283 /* homeViewController.swift */,
 				2DA011C12AF1BE8700CD2283 /* Assets.xcassets */,
 				2DA011C32AF1BE8700CD2283 /* LaunchScreen.storyboard */,
 				2DA011C62AF1BE8700CD2283 /* Info.plist */,
@@ -261,6 +264,7 @@
 				2DA011BD2AF1BE8600CD2283 /* ViewController.swift in Sources */,
 				2DA011B92AF1BE8600CD2283 /* AppDelegate.swift in Sources */,
 				2DA011BB2AF1BE8600CD2283 /* SceneDelegate.swift in Sources */,
+				2DA011E92AF1C55C00CD2283 /* homeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
