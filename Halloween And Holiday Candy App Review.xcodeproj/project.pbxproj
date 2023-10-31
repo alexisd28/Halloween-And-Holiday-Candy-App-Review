@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2DA011B92AF1BE8600CD2283 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA011B82AF1BE8600CD2283 /* AppDelegate.swift */; };
+		2DA011BB2AF1BE8600CD2283 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA011BA2AF1BE8600CD2283 /* SceneDelegate.swift */; };
+		2DA011BD2AF1BE8600CD2283 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA011BC2AF1BE8600CD2283 /* ViewController.swift */; };
+		2DA011C02AF1BE8600CD2283 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DA011BE2AF1BE8600CD2283 /* Main.storyboard */; };
+		2DA011C22AF1BE8700CD2283 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DA011C12AF1BE8700CD2283 /* Assets.xcassets */; };
+		2DA011C52AF1BE8700CD2283 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DA011C32AF1BE8700CD2283 /* LaunchScreen.storyboard */; };
+		2DA011D02AF1BE8700CD2283 /* Halloween_And_Holiday_Candy_App_ReviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA011CF2AF1BE8700CD2283 /* Halloween_And_Holiday_Candy_App_ReviewTests.swift */; };
+		2DA011DA2AF1BE8700CD2283 /* Halloween_And_Holiday_Candy_App_ReviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA011D92AF1BE8700CD2283 /* Halloween_And_Holiday_Candy_App_ReviewUITests.swift */; };
+		2DA011DC2AF1BE8700CD2283 /* Halloween_And_Holiday_Candy_App_ReviewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA011DB2AF1BE8700CD2283 /* Halloween_And_Holiday_Candy_App_ReviewUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2DA011CC2AF1BE8700CD2283 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DA011AD2AF1BE8600CD2283 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DA011B42AF1BE8600CD2283;
+			remoteInfo = "Halloween And Holiday Candy App Review";
+		};
+		2DA011D62AF1BE8700CD2283 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DA011AD2AF1BE8600CD2283 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DA011B42AF1BE8600CD2283;
+			remoteInfo = "Halloween And Holiday Candy App Review";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2DA011B52AF1BE8600CD2283 /* Halloween And Holiday Candy App Review.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Halloween And Holiday Candy App Review.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DA011B82AF1BE8600CD2283 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2DA011BA2AF1BE8600CD2283 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2DA011BC2AF1BE8600CD2283 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2DA011BF2AF1BE8600CD2283 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2DA011C12AF1BE8700CD2283 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2DA011C42AF1BE8700CD2283 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2DA011C62AF1BE8700CD2283 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DA011CB2AF1BE8700CD2283 /* Halloween And Holiday Candy App ReviewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Halloween And Holiday Candy App ReviewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DA011CF2AF1BE8700CD2283 /* Halloween_And_Holiday_Candy_App_ReviewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Halloween_And_Holiday_Candy_App_ReviewTests.swift; sourceTree = "<group>"; };
+		2DA011D52AF1BE8700CD2283 /* Halloween And Holiday Candy App ReviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Halloween And Holiday Candy App ReviewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DA011D92AF1BE8700CD2283 /* Halloween_And_Holiday_Candy_App_ReviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Halloween_And_Holiday_Candy_App_ReviewUITests.swift; sourceTree = "<group>"; };
+		2DA011DB2AF1BE8700CD2283 /* Halloween_And_Holiday_Candy_App_ReviewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Halloween_And_Holiday_Candy_App_ReviewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2DA011B22AF1BE8600CD2283 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DA011C82AF1BE8700CD2283 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DA011D22AF1BE8700CD2283 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2DA011AC2AF1BE8600CD2283 = {
+			isa = PBXGroup;
+			children = (
+				2DA011B72AF1BE8600CD2283 /* Halloween And Holiday Candy App Review */,
+				2DA011CE2AF1BE8700CD2283 /* Halloween And Holiday Candy App ReviewTests */,
+				2DA011D82AF1BE8700CD2283 /* Halloween And Holiday Candy App ReviewUITests */,
+				2DA011B62AF1BE8600CD2283 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2DA011B62AF1BE8600CD2283 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2DA011B52AF1BE8600CD2283 /* Halloween And Holiday Candy App Review.app */,
+				2DA011CB2AF1BE8700CD2283 /* Halloween And Holiday Candy App ReviewTests.xctest */,
+				2DA011D52AF1BE8700CD2283 /* Halloween And Holiday Candy App ReviewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2DA011B72AF1BE8600CD2283 /* Halloween And Holiday Candy App Review */ = {
+			isa = PBXGroup;
+			children = (
+				2DA011B82AF1BE8600CD2283 /* AppDelegate.swift */,
+				2DA011BA2AF1BE8600CD2283 /* SceneDelegate.swift */,
+				2DA011BC2AF1BE8600CD2283 /* ViewController.swift */,
+				2DA011BE2AF1BE8600CD2283 /* Main.storyboard */,
+				2DA011C12AF1BE8700CD2283 /* Assets.xcassets */,
+				2DA011C32AF1BE8700CD2283 /* LaunchScreen.storyboard */,
+				2DA011C62AF1BE8700CD2283 /* Info.plist */,
+			);
+			path = "Halloween And Holiday Candy App Review";
+			sourceTree = "<group>";
+		};
+		2DA011CE2AF1BE8700CD2283 /* Halloween And Holiday Candy App ReviewTests */ = {
+			isa = PBXGroup;
+			children = (
+				2DA011CF2AF1BE8700CD2283 /* Halloween_And_Holiday_Candy_App_ReviewTests.swift */,
+			);
+			path = "Halloween And Holiday Candy App ReviewTests";
+			sourceTree = "<group>";
+		};
+		2DA011D82AF1BE8700CD2283 /* Halloween And Holiday Candy App ReviewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2DA011D92AF1BE8700CD2283 /* Halloween_And_Holiday_Candy_App_ReviewUITests.swift */,
+				2DA011DB2AF1BE8700CD2283 /* Halloween_And_Holiday_Candy_App_ReviewUITestsLaunchTests.swift */,
+			);
+			path = "Halloween And Holiday Candy App ReviewUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2DA011B42AF1BE8600CD2283 /* Halloween And Holiday Candy App Review */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DA011DF2AF1BE8700CD2283 /* Build configuration list for PBXNativeTarget "Halloween And Holiday Candy App Review" */;
+			buildPhases = (
+				2DA011B12AF1BE8600CD2283 /* Sources */,
+				2DA011B22AF1BE8600CD2283 /* Frameworks */,
+				2DA011B32AF1BE8600CD2283 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Halloween And Holiday Candy App Review";
+			productName = "Halloween And Holiday Candy App Review";
+			productReference = 2DA011B52AF1BE8600CD2283 /* Halloween And Holiday Candy App Review.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2DA011CA2AF1BE8700CD2283 /* Halloween And Holiday Candy App ReviewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DA011E22AF1BE8700CD2283 /* Build configuration list for PBXNativeTarget "Halloween And Holiday Candy App ReviewTests" */;
+			buildPhases = (
+				2DA011C72AF1BE8700CD2283 /* Sources */,
+				2DA011C82AF1BE8700CD2283 /* Frameworks */,
+				2DA011C92AF1BE8700CD2283 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DA011CD2AF1BE8700CD2283 /* PBXTargetDependency */,
+			);
+			name = "Halloween And Holiday Candy App ReviewTests";
+			productName = "Halloween And Holiday Candy App ReviewTests";
+			productReference = 2DA011CB2AF1BE8700CD2283 /* Halloween And Holiday Candy App ReviewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2DA011D42AF1BE8700CD2283 /* Halloween And Holiday Candy App ReviewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DA011E52AF1BE8700CD2283 /* Build configuration list for PBXNativeTarget "Halloween And Holiday Candy App ReviewUITests" */;
+			buildPhases = (
+				2DA011D12AF1BE8700CD2283 /* Sources */,
+				2DA011D22AF1BE8700CD2283 /* Frameworks */,
+				2DA011D32AF1BE8700CD2283 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DA011D72AF1BE8700CD2283 /* PBXTargetDependency */,
+			);
+			name = "Halloween And Holiday Candy App ReviewUITests";
+			productName = "Halloween And Holiday Candy App ReviewUITests";
+			productReference = 2DA011D52AF1BE8700CD2283 /* Halloween And Holiday Candy App ReviewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2DA011AD2AF1BE8600CD2283 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					2DA011B42AF1BE8600CD2283 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					2DA011CA2AF1BE8700CD2283 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 2DA011B42AF1BE8600CD2283;
+					};
+					2DA011D42AF1BE8700CD2283 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 2DA011B42AF1BE8600CD2283;
+					};
+				};
+			};
+			buildConfigurationList = 2DA011B02AF1BE8600CD2283 /* Build configuration list for PBXProject "Halloween And Holiday Candy App Review" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2DA011AC2AF1BE8600CD2283;
+			productRefGroup = 2DA011B62AF1BE8600CD2283 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2DA011B42AF1BE8600CD2283 /* Halloween And Holiday Candy App Review */,
+				2DA011CA2AF1BE8700CD2283 /* Halloween And Holiday Candy App ReviewTests */,
+				2DA011D42AF1BE8700CD2283 /* Halloween And Holiday Candy App ReviewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2DA011B32AF1BE8600CD2283 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DA011C52AF1BE8700CD2283 /* LaunchScreen.storyboard in Resources */,
+				2DA011C22AF1BE8700CD2283 /* Assets.xcassets in Resources */,
+				2DA011C02AF1BE8600CD2283 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DA011C92AF1BE8700CD2283 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DA011D32AF1BE8700CD2283 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2DA011B12AF1BE8600CD2283 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DA011BD2AF1BE8600CD2283 /* ViewController.swift in Sources */,
+				2DA011B92AF1BE8600CD2283 /* AppDelegate.swift in Sources */,
+				2DA011BB2AF1BE8600CD2283 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DA011C72AF1BE8700CD2283 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DA011D02AF1BE8700CD2283 /* Halloween_And_Holiday_Candy_App_ReviewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DA011D12AF1BE8700CD2283 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DA011DA2AF1BE8700CD2283 /* Halloween_And_Holiday_Candy_App_ReviewUITests.swift in Sources */,
+				2DA011DC2AF1BE8700CD2283 /* Halloween_And_Holiday_Candy_App_ReviewUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2DA011CD2AF1BE8700CD2283 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2DA011B42AF1BE8600CD2283 /* Halloween And Holiday Candy App Review */;
+			targetProxy = 2DA011CC2AF1BE8700CD2283 /* PBXContainerItemProxy */;
+		};
+		2DA011D72AF1BE8700CD2283 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2DA011B42AF1BE8600CD2283 /* Halloween And Holiday Candy App Review */;
+			targetProxy = 2DA011D62AF1BE8700CD2283 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2DA011BE2AF1BE8600CD2283 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DA011BF2AF1BE8600CD2283 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2DA011C32AF1BE8700CD2283 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DA011C42AF1BE8700CD2283 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2DA011DD2AF1BE8700CD2283 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2DA011DE2AF1BE8700CD2283 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2DA011E02AF1BE8700CD2283 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 25PWZ37DVH;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Halloween And Holiday Candy App Review/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Alexis.Halloween-And-Holiday-Candy-App-Review";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2DA011E12AF1BE8700CD2283 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 25PWZ37DVH;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Halloween And Holiday Candy App Review/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Alexis.Halloween-And-Holiday-Candy-App-Review";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2DA011E32AF1BE8700CD2283 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 25PWZ37DVH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Alexis.Halloween-And-Holiday-Candy-App-ReviewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Halloween And Holiday Candy App Review.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Halloween And Holiday Candy App Review";
+			};
+			name = Debug;
+		};
+		2DA011E42AF1BE8700CD2283 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 25PWZ37DVH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Alexis.Halloween-And-Holiday-Candy-App-ReviewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Halloween And Holiday Candy App Review.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Halloween And Holiday Candy App Review";
+			};
+			name = Release;
+		};
+		2DA011E62AF1BE8700CD2283 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 25PWZ37DVH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Alexis.Halloween-And-Holiday-Candy-App-ReviewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Halloween And Holiday Candy App Review";
+			};
+			name = Debug;
+		};
+		2DA011E72AF1BE8700CD2283 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 25PWZ37DVH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Alexis.Halloween-And-Holiday-Candy-App-ReviewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Halloween And Holiday Candy App Review";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2DA011B02AF1BE8600CD2283 /* Build configuration list for PBXProject "Halloween And Holiday Candy App Review" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DA011DD2AF1BE8700CD2283 /* Debug */,
+				2DA011DE2AF1BE8700CD2283 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DA011DF2AF1BE8700CD2283 /* Build configuration list for PBXNativeTarget "Halloween And Holiday Candy App Review" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DA011E02AF1BE8700CD2283 /* Debug */,
+				2DA011E12AF1BE8700CD2283 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DA011E22AF1BE8700CD2283 /* Build configuration list for PBXNativeTarget "Halloween And Holiday Candy App ReviewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DA011E32AF1BE8700CD2283 /* Debug */,
+				2DA011E42AF1BE8700CD2283 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DA011E52AF1BE8700CD2283 /* Build configuration list for PBXNativeTarget "Halloween And Holiday Candy App ReviewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DA011E62AF1BE8700CD2283 /* Debug */,
+				2DA011E72AF1BE8700CD2283 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2DA011AD2AF1BE8600CD2283 /* Project object */;
+}
