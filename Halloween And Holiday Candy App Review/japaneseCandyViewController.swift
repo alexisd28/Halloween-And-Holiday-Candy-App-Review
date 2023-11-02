@@ -24,6 +24,7 @@ class japaneseCandyViewController: UIViewController, UITableViewDataSource, UITa
     }
     
 
+    @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var bigTitle: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
