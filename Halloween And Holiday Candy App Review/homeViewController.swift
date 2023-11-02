@@ -17,8 +17,11 @@ class homeViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        labelTitle.text = "Yuki's Candy Reviews"
+        labelTitle.text = "Yuki's Candy Review"
         featuredCandyTitle.text = "Featured Candy: Crunch Chocolate Bars"
+    }
+    @IBAction func buttonPressed(_ sender: Any) {
+        
     }
     
 }

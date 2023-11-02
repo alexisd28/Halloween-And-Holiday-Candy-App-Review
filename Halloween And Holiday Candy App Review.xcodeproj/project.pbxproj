@@ -17,6 +17,11 @@
 		2DA011DA2AF1BE8700CD2283 /* Halloween_And_Holiday_Candy_App_ReviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA011D92AF1BE8700CD2283 /* Halloween_And_Holiday_Candy_App_ReviewUITests.swift */; };
 		2DA011DC2AF1BE8700CD2283 /* Halloween_And_Holiday_Candy_App_ReviewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA011DB2AF1BE8700CD2283 /* Halloween_And_Holiday_Candy_App_ReviewUITestsLaunchTests.swift */; };
 		2DA011E92AF1C55C00CD2283 /* homeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA011E82AF1C55C00CD2283 /* homeViewController.swift */; };
+		2DA011EB2AF1C81300CD2283 /* candyReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA011EA2AF1C81300CD2283 /* candyReviewViewController.swift */; };
+		2DA011ED2AF3582F00CD2283 /* chocolateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA011EC2AF3582F00CD2283 /* chocolateViewController.swift */; };
+		2DA011EF2AF3583B00CD2283 /* japaneseCandyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA011EE2AF3583B00CD2283 /* japaneseCandyViewController.swift */; };
+		2DA011F12AF3584500CD2283 /* chocolateCoveredViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA011F02AF3584500CD2283 /* chocolateCoveredViewController.swift */; };
+		2DA011F32AF3584D00CD2283 /* aboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA011F22AF3584D00CD2283 /* aboutViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,11 @@
 		2DA011D92AF1BE8700CD2283 /* Halloween_And_Holiday_Candy_App_ReviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Halloween_And_Holiday_Candy_App_ReviewUITests.swift; sourceTree = "<group>"; };
 		2DA011DB2AF1BE8700CD2283 /* Halloween_And_Holiday_Candy_App_ReviewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Halloween_And_Holiday_Candy_App_ReviewUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		2DA011E82AF1C55C00CD2283 /* homeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeViewController.swift; sourceTree = "<group>"; };
+		2DA011EA2AF1C81300CD2283 /* candyReviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = candyReviewViewController.swift; sourceTree = "<group>"; };
+		2DA011EC2AF3582F00CD2283 /* chocolateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chocolateViewController.swift; sourceTree = "<group>"; };
+		2DA011EE2AF3583B00CD2283 /* japaneseCandyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = japaneseCandyViewController.swift; sourceTree = "<group>"; };
+		2DA011F02AF3584500CD2283 /* chocolateCoveredViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chocolateCoveredViewController.swift; sourceTree = "<group>"; };
+		2DA011F22AF3584D00CD2283 /* aboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aboutViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +91,7 @@
 		2DA011AC2AF1BE8600CD2283 = {
 			isa = PBXGroup;
 			children = (
+				2DA011F22AF3584D00CD2283 /* aboutViewController.swift */,
 				2DA011B72AF1BE8600CD2283 /* Halloween And Holiday Candy App Review */,
 				2DA011CE2AF1BE8700CD2283 /* Halloween And Holiday Candy App ReviewTests */,
 				2DA011D82AF1BE8700CD2283 /* Halloween And Holiday Candy App ReviewUITests */,
@@ -105,10 +116,14 @@
 				2DA011BA2AF1BE8600CD2283 /* SceneDelegate.swift */,
 				2DA011BC2AF1BE8600CD2283 /* ViewController.swift */,
 				2DA011BE2AF1BE8600CD2283 /* Main.storyboard */,
+				2DA011EA2AF1C81300CD2283 /* candyReviewViewController.swift */,
 				2DA011E82AF1C55C00CD2283 /* homeViewController.swift */,
 				2DA011C12AF1BE8700CD2283 /* Assets.xcassets */,
 				2DA011C32AF1BE8700CD2283 /* LaunchScreen.storyboard */,
 				2DA011C62AF1BE8700CD2283 /* Info.plist */,
+				2DA011EC2AF3582F00CD2283 /* chocolateViewController.swift */,
+				2DA011EE2AF3583B00CD2283 /* japaneseCandyViewController.swift */,
+				2DA011F02AF3584500CD2283 /* chocolateCoveredViewController.swift */,
 			);
 			path = "Halloween And Holiday Candy App Review";
 			sourceTree = "<group>";
@@ -261,10 +276,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DA011F12AF3584500CD2283 /* chocolateCoveredViewController.swift in Sources */,
 				2DA011BD2AF1BE8600CD2283 /* ViewController.swift in Sources */,
+				2DA011F32AF3584D00CD2283 /* aboutViewController.swift in Sources */,
 				2DA011B92AF1BE8600CD2283 /* AppDelegate.swift in Sources */,
+				2DA011EB2AF1C81300CD2283 /* candyReviewViewController.swift in Sources */,
+				2DA011ED2AF3582F00CD2283 /* chocolateViewController.swift in Sources */,
 				2DA011BB2AF1BE8600CD2283 /* SceneDelegate.swift in Sources */,
 				2DA011E92AF1C55C00CD2283 /* homeViewController.swift in Sources */,
+				2DA011EF2AF3583B00CD2283 /* japaneseCandyViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
