@@ -22,6 +22,8 @@
 		2DA011EF2AF3583B00CD2283 /* japaneseCandyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA011EE2AF3583B00CD2283 /* japaneseCandyViewController.swift */; };
 		2DA011F12AF3584500CD2283 /* chocolateCoveredViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA011F02AF3584500CD2283 /* chocolateCoveredViewController.swift */; };
 		2DA011F32AF3584D00CD2283 /* aboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA011F22AF3584D00CD2283 /* aboutViewController.swift */; };
+		2DA011F72AF45DFD00CD2283 /* secondDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA011F62AF45DFD00CD2283 /* secondDetailViewController.swift */; };
+		2DA011F92AF45EC400CD2283 /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2DA011F82AF45EC400CD2283 /* Property List.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +63,8 @@
 		2DA011EE2AF3583B00CD2283 /* japaneseCandyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = japaneseCandyViewController.swift; sourceTree = "<group>"; };
 		2DA011F02AF3584500CD2283 /* chocolateCoveredViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chocolateCoveredViewController.swift; sourceTree = "<group>"; };
 		2DA011F22AF3584D00CD2283 /* aboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aboutViewController.swift; sourceTree = "<group>"; };
+		2DA011F62AF45DFD00CD2283 /* secondDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondDetailViewController.swift; sourceTree = "<group>"; };
+		2DA011F82AF45EC400CD2283 /* Property List.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Property List.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +119,8 @@
 				2DA011BA2AF1BE8600CD2283 /* SceneDelegate.swift */,
 				2DA011BC2AF1BE8600CD2283 /* ViewController.swift */,
 				2DA011BE2AF1BE8600CD2283 /* Main.storyboard */,
+				2DA011F82AF45EC400CD2283 /* Property List.plist */,
+				2DA011F62AF45DFD00CD2283 /* secondDetailViewController.swift */,
 				2DA011EA2AF1C81300CD2283 /* candyReviewViewController.swift */,
 				2DA011E82AF1C55C00CD2283 /* homeViewController.swift */,
 				2DA011C12AF1BE8700CD2283 /* Assets.xcassets */,
@@ -251,6 +257,7 @@
 			files = (
 				2DA011C52AF1BE8700CD2283 /* LaunchScreen.storyboard in Resources */,
 				2DA011C22AF1BE8700CD2283 /* Assets.xcassets in Resources */,
+				2DA011F92AF45EC400CD2283 /* Property List.plist in Resources */,
 				2DA011C02AF1BE8600CD2283 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,6 +285,7 @@
 			files = (
 				2DA011F12AF3584500CD2283 /* chocolateCoveredViewController.swift in Sources */,
 				2DA011BD2AF1BE8600CD2283 /* ViewController.swift in Sources */,
+				2DA011F72AF45DFD00CD2283 /* secondDetailViewController.swift in Sources */,
 				2DA011F32AF3584D00CD2283 /* aboutViewController.swift in Sources */,
 				2DA011B92AF1BE8600CD2283 /* AppDelegate.swift in Sources */,
 				2DA011EB2AF1C81300CD2283 /* candyReviewViewController.swift in Sources */,
