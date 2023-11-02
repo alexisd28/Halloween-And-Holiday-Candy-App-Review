@@ -7,8 +7,27 @@
 
 import UIKit
 
-class chocolateViewController: UIViewController {
+var chocolateArray = ["Crunch Bars", "Twix Bars", "Kit Kats", "Hershey's"]
+var chocolateReviewArray = ["5 stars", "5 Stars", "5 Stars", "2 Stars"]
 
+
+
+class chocolateViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return chocolateArray.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
+                      let text = chocolateArray[indexPath.row]
+        cell.detailTextLabel?.text = chocolateReviewArray[indexPath.row]
+                      cell.textLabel?.text = text
+                      return cell
+
+    }
+    
+    @IBOutlet weak var tableView: UITableView!
+    
     @IBOutlet weak var bigTitle: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()

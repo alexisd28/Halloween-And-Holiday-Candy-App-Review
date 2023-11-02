@@ -7,7 +7,22 @@
 
 import UIKit
 
-class japaneseCandyViewController: UIViewController {
+var japaneseCandyArray = ["Poppin' Cookin'", "Pocky", "HiChew", "Konpeito"]
+var japaneseCandyReviewArray = ["5 Stars", "5 Stars", "4 Stars", "3 Stars"]
+
+class japaneseCandyViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return japaneseCandyArray.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
+                      let text = japaneseCandyArray[indexPath.row]
+        cell.detailTextLabel?.text = japaneseCandyReviewArray[indexPath.row]
+                      cell.textLabel?.text = text
+                      return cell
+    }
+    
 
     @IBOutlet weak var bigTitle: UILabel!
     override func viewDidLoad() {

@@ -91,7 +91,6 @@
 		2DA011AC2AF1BE8600CD2283 = {
 			isa = PBXGroup;
 			children = (
-				2DA011F22AF3584D00CD2283 /* aboutViewController.swift */,
 				2DA011B72AF1BE8600CD2283 /* Halloween And Holiday Candy App Review */,
 				2DA011CE2AF1BE8700CD2283 /* Halloween And Holiday Candy App ReviewTests */,
 				2DA011D82AF1BE8700CD2283 /* Halloween And Holiday Candy App ReviewUITests */,
@@ -120,6 +119,7 @@
 				2DA011E82AF1C55C00CD2283 /* homeViewController.swift */,
 				2DA011C12AF1BE8700CD2283 /* Assets.xcassets */,
 				2DA011C32AF1BE8700CD2283 /* LaunchScreen.storyboard */,
+				2DA011F22AF3584D00CD2283 /* aboutViewController.swift */,
 				2DA011C62AF1BE8700CD2283 /* Info.plist */,
 				2DA011EC2AF3582F00CD2283 /* chocolateViewController.swift */,
 				2DA011EE2AF3583B00CD2283 /* japaneseCandyViewController.swift */,
