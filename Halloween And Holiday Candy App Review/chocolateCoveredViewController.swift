@@ -23,6 +23,7 @@ class chocolateCoveredViewController: UIViewController, UITableViewDataSource, U
                       return cell
     }
     
+    @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var bigTitle: UILabel!
     
     override func viewDidLoad() {
