@@ -2,12 +2,12 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>CategoryOneImages</key>
+	<key>CategoryTwoImages</key>
 	<array>
-		<string>Crunch Bars</string>
-		<string>Twix Bars</string>
-		<string>Kit Kats</string>
-		<string>Hershey&apos;s</string>
+		<string>Poppin&apos; Cookin&apos;</string>
+		<string>Pocky</string>
+		<string>HiChew</string>
+		<string>Konpeito</string>
 	</array>
 </dict>
 </plist>

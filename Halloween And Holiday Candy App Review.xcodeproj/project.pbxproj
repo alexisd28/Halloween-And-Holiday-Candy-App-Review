@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D02CE2A2AFAF80F00D95879 /* thirdDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D02CE292AFAF80F00D95879 /* thirdDetailViewController.swift */; };
+		2D02CE2C2AFAF84700D95879 /* Property List 2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2D02CE2B2AFAF84700D95879 /* Property List 2.plist */; };
 		2DA011B92AF1BE8600CD2283 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA011B82AF1BE8600CD2283 /* AppDelegate.swift */; };
 		2DA011BB2AF1BE8600CD2283 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA011BA2AF1BE8600CD2283 /* SceneDelegate.swift */; };
 		2DA011BD2AF1BE8600CD2283 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA011BC2AF1BE8600CD2283 /* ViewController.swift */; };
@@ -44,6 +46,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2D02CE292AFAF80F00D95879 /* thirdDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thirdDetailViewController.swift; sourceTree = "<group>"; };
+		2D02CE2B2AFAF84700D95879 /* Property List 2.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Property List 2.plist"; sourceTree = "<group>"; };
 		2DA011B52AF1BE8600CD2283 /* Halloween And Holiday Candy App Review.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Halloween And Holiday Candy App Review.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DA011B82AF1BE8600CD2283 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2DA011BA2AF1BE8600CD2283 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -119,6 +123,8 @@
 				2DA011BA2AF1BE8600CD2283 /* SceneDelegate.swift */,
 				2DA011BC2AF1BE8600CD2283 /* ViewController.swift */,
 				2DA011BE2AF1BE8600CD2283 /* Main.storyboard */,
+				2D02CE2B2AFAF84700D95879 /* Property List 2.plist */,
+				2D02CE292AFAF80F00D95879 /* thirdDetailViewController.swift */,
 				2DA011F82AF45EC400CD2283 /* Property List.plist */,
 				2DA011F62AF45DFD00CD2283 /* secondDetailViewController.swift */,
 				2DA011EA2AF1C81300CD2283 /* candyReviewViewController.swift */,
@@ -258,6 +264,7 @@
 				2DA011C52AF1BE8700CD2283 /* LaunchScreen.storyboard in Resources */,
 				2DA011C22AF1BE8700CD2283 /* Assets.xcassets in Resources */,
 				2DA011F92AF45EC400CD2283 /* Property List.plist in Resources */,
+				2D02CE2C2AFAF84700D95879 /* Property List 2.plist in Resources */,
 				2DA011C02AF1BE8600CD2283 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,6 +291,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DA011F12AF3584500CD2283 /* chocolateCoveredViewController.swift in Sources */,
+				2D02CE2A2AFAF80F00D95879 /* thirdDetailViewController.swift in Sources */,
 				2DA011BD2AF1BE8600CD2283 /* ViewController.swift in Sources */,
 				2DA011F72AF45DFD00CD2283 /* secondDetailViewController.swift in Sources */,
 				2DA011F32AF3584D00CD2283 /* aboutViewController.swift in Sources */,
