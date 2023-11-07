@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CategoryThreeImages</key>
+	<array>
+		<string>Chocolate Covered Strawberries</string>
+		<string>Chocolate Covered Pretzels</string>
+		<string>Ferrero Rocher</string>
+		<string>Chocolate Covered Cherries</string>
+	</array>
+</dict>
+</plist>

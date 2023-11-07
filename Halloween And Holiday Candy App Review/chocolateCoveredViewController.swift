@@ -23,8 +23,26 @@ class chocolateCoveredViewController: UIViewController, UITableViewDataSource, U
                       return cell
     }
     
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "mySegue"
+        {
+            let s1 = segue.destination as! fourthDetailViewController
+            let imageIndex = tableView.indexPathForSelectedRow?.row
+            s1.imagePass = categoryThreeImagesData[imageIndex!]
+        }
+    }
+    
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath)
+    {
+        tableView.deselectRow(at: indexPath, animated: true)
+    }
+    
+    
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var bigTitle: UILabel!
+    var categoryThreeImagesData = [String]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -34,7 +52,11 @@ class chocolateCoveredViewController: UIViewController, UITableViewDataSource, U
         bigTitle.text = "Yuki's Candy Review"
         
         
-        
+        super.viewDidLoad()
+        //part 8
+        let path = Bundle.main.path(forResource: "Property List 3", ofType: "plist")
+        let dict = NSDictionary(contentsOfFile: path!)
+        categoryThreeImagesData = dict!.object(forKey:"CategoryThreeImages") as! [String]
         
         
         
