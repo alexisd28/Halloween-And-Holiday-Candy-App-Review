@@ -291,7 +291,7 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="fRN-cx-JRv" kind="show" id="cmV-Nf-JZh"/>
+                                            <segue destination="fRN-cx-JRv" kind="show" identifier="mySegue" id="bKV-Rr-tBD"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>

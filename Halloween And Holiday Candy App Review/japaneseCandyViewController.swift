@@ -28,7 +28,7 @@ class japaneseCandyViewController: UIViewController, UITableViewDataSource, UITa
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "mySegue"
         {
-            let s1 = segue.destination as! secondDetailViewController
+            let s1 = segue.destination as! thirdDetailViewController
             let imageIndex = tableView.indexPathForSelectedRow?.row
             s1.imagePass = categoryTwoImagesData[imageIndex!]
         }
